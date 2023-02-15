@@ -2,8 +2,56 @@
 
 
 # Linux Command Line Practical:
+##Practical 1
+
+### 1. Manipulating Files and Directories
+		mkdir <fileName>
+		cd <fileName>
+		touch <fileName>
+		gedit <fileName>
+		cat <fileName>
+		mv <fileName> <RenamedfileName>
+		cp <fileName> <newfileName>
+		head <fileName>
+		tail <fileName>
+		nano <fileName>
+### 2. List all file permissions with example.
+		ll	
+### 3. List all running process.
+		ps
+		ps x
+### 4. Find particular process by its name.
+		pidof <process>
+		ps aux | grep -i <process>
+		pgrep <process>
+### 5. How to kill any particular process.
+		killall <process>
+		kill pid
+### 6. Vi or Vim for file editing.
+		vim <fileName> 	
+### 7. Change file owner and group.
+		chown <userName/ownership> <fileName>
+### 8. Change group ownership.
+		chgrp <groupName> <fileName>
+### 9. Moving and Renaming Files.
+		mv <fileName> <RenamedfileName>
+### 10. Remove Files and Directories.
+		rm <fileName>
+		rm -r <directoryName>
+### 11. List the directory contents.
+		ls
+### 12. How I can get the path of working directory.
+		pwd
+### 13. How to Search in Vim/Vi.
+		/Hello
+		/Hello\c
+### 14. How Do You Do a Search andReplace in Vim/Vi.
+		%s/Hello/hello
+### 15. How we can save and exit from Vim/Vi file.
+		!wq
 
 
+## Practical 2
 ### 1. Write a command to create new folder
 		mkdir new-folder
 ### 2. Write a command to find the current path of the folder
